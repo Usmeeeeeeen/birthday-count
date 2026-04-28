@@ -1,0 +1,42 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:linear-gradient(135deg,#a3a134,#d4a90e);
+}
+
+.container{
+  background:white;
+  padding:40px;
+  border-radius:20px;
+  text-align:center;
+  box-shadow:0 10px 30px rgba(0,0,0,0.2);
+  width:350px;
+}
+
+h1{
+  margin-bottom:20px;
+  color:#333;
+}
+
+input{
+  padding:10px;
+  font-size:18px;
+  border:2px solid orange;
+  border-radius:10px;
+  width:100%;
+  margin-bottom:20px;
+}
+
+.countdown{
+  font-size:24px;
+  font-weight:bold;
+  color:orange;
+}
